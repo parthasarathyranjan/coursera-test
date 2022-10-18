@@ -1,0 +1,87 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: whitesmoke;
+    font-style: Oxygen;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+#header-nav{
+    background-color:grey;
+    border-radius: 0;
+    padding-bottom: 40px;
+    
+}
+
+#header-nav button{
+    margin-top: 26px;
+}
+
+#header{
+    font-family:sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 60px black;
+    text-align: left;
+}
+
+/*menu and submenu*/
+#menu{
+    text-align: center;
+    color: black;
+    font-size: 20px solid;
+    font-weight: bold;
+}
+.submenu{
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu2{
+    background-color: grey;
+}
+#p1,#p2{
+    color:black;
+    text-align: center;
+    border-radius: 1px;
+}
+/*navbar toggle*/
+
+/*Larger Devices*/
+@media(min-width:992px){
+    .col-md-4{
+        width: 33.33%;
+    }
+}
+
+/*Medium Devices*/
+@media (min-width:768px) and (max-width:991px){
+   /* .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-6{
+        width: 100%;
+    }*/
+   /* .col-sm-12 { 
+        float: left; 
+      }
+      */ 
+      .col-sm-6 { 
+        width: 50%; 
+      } 
+      .col-sm-12{ 
+        float: right;
+        margin-left: -10px;
+        width: 200%S; 
+      }
+}
+
+/*Small devices*/
+@media (min-width: 0px) and (max-width: 767px) { 
+    .col-xs-12 { 
+     float: left; 
+      width: 100%; 
+    } 
+  }
